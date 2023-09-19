@@ -85,10 +85,13 @@ section img:hover {
 
 footer {
     background-color: lightcyan;
+    border: 10px #BEF764;
     width: 300px;
     position: fixed;
     bottom: 25px;
     left: 25px;
+    border-radius: 3px;
+    
 }
 
 #splash {
