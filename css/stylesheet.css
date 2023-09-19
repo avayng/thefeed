@@ -22,11 +22,6 @@ header:hover {
 }
 
 
-
-
-
-
-
 h1 {
     font-family: 'Mountains of Christmas', cursive;
     text-align: center;
@@ -38,7 +33,13 @@ h2 {
 }
     
 h3 {
-        font-family: 'Averia Sans Libre', cursive;}
+        font-family: 'Mountains of Christmas', cursive;
+        color: darkmagenta;
+    
+    
+    
+    
+    }
     
 p {
         font-family: 'Averia Sans Libre', cursive;}
@@ -46,46 +47,60 @@ p {
 
 
 nav {
-    background-color: #BEF764;
+    background-color: pink;
     width: 300px;
     position: fixed;
-    top: 200px;
+    top: 300px;
     left: 25px;
+    text-align: center;
+    border-radius: 10px;
     
+    
+}
+
+nav:hover{
+    background-color: lightblue;
 }
 
 
 main {
-    background-color: lightcyan;
+    background-color: pink;
     width: 650px;
     margin-left: 600px;
+    border-radius: 12px;
 }
 
 
 section {
-    background-color: thistle;
+    background-color:#FEAC00;
     border: 10px purple;
     margin: 25px;
     text-align: center;
     border-radius: 7px;
+    position: relative;
+ 
+ 
+
 
 }
 
 section img {
-    border: 10px black solid;
-    padding: 10px;
+    border: 10px  plum solid;
+    padding: 20px;
     border-radius: 12px;
+    margin-top: 15px;
+    margin-bottom: 5px;
     
 }
 
 section img:hover {
     background-color: #BEF764;
+
 }
 
 
 footer {
-    background-color: lightcyan;
-    border: 10px #BEF764;
+    background-color: plum;
     width: 300px;
     position: fixed;
     bottom: 25px;
@@ -102,8 +117,9 @@ footer {
 
 }
 
-img:hover {
+#splash img:hover {
     opacity: 0.4;
+    width: 500px;
 }
 
 a {
