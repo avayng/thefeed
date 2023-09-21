@@ -47,13 +47,14 @@ p {
 
 
 nav {
+    position: sticky;
     background-color: pink;
     width: 300px;
     position: fixed;
     top: 300px;
     left: 25px;
     text-align: center;
-    border-radius: 10px;
+    border-radius: 70px;
     
     
 }
@@ -78,6 +79,7 @@ section {
     text-align: center;
     border-radius: 7px;
     position: relative;
+
  
  
 
@@ -90,12 +92,26 @@ section img {
     border-radius: 12px;
     margin-top: 15px;
     margin-bottom: 5px;
-    
+  
 }
 
 section img:hover {
     background-color: #BEF764;
 
+}
+
+
+section video {
+    border: 10px  plum solid;
+    padding: 20px;
+    border-radius: 12px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+
+section video:hover {
+    background-color: #BEF764;
 }
 
 
