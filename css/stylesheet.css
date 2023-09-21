@@ -26,10 +26,10 @@ header {
 
 }
 
-header:hover {
-    background-color: black;
-}
+header :hover {
+    width: 300px;
 
+}
 
 h1 {
     font-family: 'Mountains of Christmas', cursive;
