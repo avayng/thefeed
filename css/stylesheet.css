@@ -11,9 +11,10 @@
 
 
 body{ 
-    background-image: url("../img/background.png");
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-image: url("../img/rainbow.jpg");
+    background-repeat: repeat;
+    background-attachment: scroll;
+    
     max-width: 1200px;
     margin: auto;
 }
