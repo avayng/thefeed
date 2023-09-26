@@ -11,12 +11,12 @@
 
 
 body{ 
-    background-image: url("../img/rainbow.jpg");
+    background-image: url("../img/lava.jpg");
     background-repeat: repeat;
     background-attachment: scroll;
-    
     max-width: 1200px;
     margin: auto;
+    
 }
 
 
@@ -40,7 +40,7 @@ h1 {
     
 h2 {
     font-family: 'Mate SC', serif;
-    color: darkmagenta;
+    color: whitesmoke;
     
 }
     
@@ -72,20 +72,21 @@ nav {
 }
 
 nav:hover{
-    background-color: lightblue;
+    background-color: #FEE608;
 }
 
 
 main {
-    background-color: pink;
+    background-color: #FE166A;
     width: 650px;
     margin-left: 600px;
     border-radius: 12px;
+    cursor: url(../img/star.png);
 }
 
 
 section {
-    background-color:#FEAC00;
+    background-color:#A70296;
     border: 10px purple;
     margin: 25px;
     text-align: center;
@@ -109,7 +110,7 @@ section img {
 }
 
 section img:hover {
-    background-color: #BEF764;
+    background-color: #FEE608;
 
 }
 
