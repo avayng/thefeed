@@ -7,9 +7,6 @@
 
 
 
-
-
-
 body{ 
     background-image: url("../img/lava.jpg");
     background-repeat: repeat;
@@ -48,9 +45,6 @@ h3 {
         font-family: 'Mountains of Christmas', cursive;
         color: darkmagenta;
     
-    
-    
-    
     }
     
 p {
@@ -85,6 +79,8 @@ main {
 }
 
 
+
+
 section {
     background-color:#A70296;
     border: 10px purple;
@@ -93,8 +89,6 @@ section {
     border-radius: 100px;
     position: relative;
 
- 
- 
 
 
 }
@@ -133,7 +127,7 @@ footer {
     background-color: plum;
     width: 300px;
     position: fixed;
-    bottom: 25px;
+    bottom: 15px;
     left: 25px;
     border-radius: 30px;
     
